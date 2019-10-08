@@ -1,0 +1,13 @@
+html {
+    /* ルートのフォントサイズを10pxに設定 */
+    font-size: 62.5%;
+}
+
+body {
+    /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
+    font-size: 1.6em;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    box-sizing: border-box;
+	line-height: 1.6;    
+}
+
