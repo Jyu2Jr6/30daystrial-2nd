@@ -7,11 +7,12 @@ body {
     /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
     font-size: 1.6em;
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-	line-height: 1.6;    
+	line-height: 1.2;    
 }
 
 body a {
     text-decoration: none;
+	line-height: 1.2;    
 }
 
 .inner {
@@ -34,7 +35,7 @@ body a {
 }
 
 .header-logo img {
-    margin: 3.1rem 0 3.0rem 2rem;    
+    margin: 3.1rem 0 3.0rem 4.7rem;    
 }
 
 .header-menu {
@@ -46,7 +47,7 @@ body a {
     color: #fff;
     font-weight: normal;
     text-align: left;
-    margin-left: 3.0rem;
+    margin-right: 2.6rem;
     padding-bottom: 0.5rem;
 } 
 
@@ -71,13 +72,13 @@ body a {
 .main-title {
     font-size: 6.8rem;
     padding-top: 25rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.7rem;
 }
 
 .main-text {
     font-size: 3.8rem;
     font-weight: bold;
-    margin-bottom: 8.2rem; 
+    margin-bottom: 8.7rem; 
 }
 
 .btn {
@@ -102,20 +103,29 @@ body a {
 
 .section-title {
     text-align: center;
-    padding-top: 6.8rem;
+    padding-top: 6.9rem;
     margin-bottom: 6.8rem;
 }
 
 .section-title h2 {
     font-size: 6rem;
-    margin-bottom: 4.4rem;
+    margin-bottom: 4.7rem;
 }
 
+/* 
 .section-title p {
     width: 7.6rem;
     border: 0.5rem solid #3F51B5;
     margin: 0 auto;
 }
+ */
+
+ .section-title hr {
+    width: 7.6rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    background-color: #3F51B5;
+ }
 
 .section-contents {
     display: flex;
@@ -129,6 +139,7 @@ body a {
     display: block;
     margin-bottom: 2rem;
     margin-right: 3rem;
+    height: 35.5rem;
     /* 
     width: calc(33.3333333% - 100px / 3);
      */
@@ -145,7 +156,7 @@ body a {
 
 .item img {
     text-align: center;
-    margin-bottom: 2.6rem;
+    margin-bottom: 2.2rem;
 }
 
 .item h3 {
@@ -158,5 +169,6 @@ body a {
     width: 31rem;
     height: 7.8rem;
     overflow: hidden;
+    line-height: 1.5;
 }
 /* card end */
