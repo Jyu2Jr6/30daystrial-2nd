@@ -123,6 +123,23 @@
     margin: 0 auto;
   }
   /* price end */
+
+  /* access start */
+  .content-map {
+    margin-bottom: 20px;
+  }
+
+  #access .section-contents {
+    padding-bottom: 20px;
+  }
+
+  .content-access {
+    margin-bottom: 20px;
+  }
+
+  .content-access table {
+    margin: 0 auto;
+  }
 }
 
 /* スマホ */
@@ -220,6 +237,5 @@
       border: 1px solid #707070;
       width: 100px;
   }
-
-
+  /* price end */
 }

@@ -322,3 +322,61 @@ s
     text-decoration: underline;
 }
 /* price end */
+
+/* access start */
+#access .section-contents {
+    padding-bottom: 10.2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-map {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    text-align: center;
+    margin-bottom: 3.4rem;
+    z-index: -999;
+}
+
+.content-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-access {
+    margin-bottom: 3.8rem;
+}
+
+.content-access table {
+    margin-left: 20%;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.td-1-col-1,
+.td-2-col-1 {
+    padding-right: 5.4rem;
+}
+
+.td-2-col1,
+.td-2-col2 {
+    padding-top: 0.5rem
+}
+
+.content-btn {
+    text-align: center;
+}
+
+.content-btn a {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    background: #3F51B5;
+    padding: 1.6rem 5.8rem 1.4rem 5.9rem;
+    border-radius: 1.2rem;
+}
+/* access end */
