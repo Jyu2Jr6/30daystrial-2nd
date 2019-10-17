@@ -72,7 +72,8 @@
   }  
 
   .item h3 {
-    margin-bottom: 10px;
+    margin-bottom:
+     10px;
   }
 
   .item p {
@@ -80,6 +81,30 @@
     height: 40px;
   }
   /* card end */
+
+  /* news start */
+  .news {
+    width: 80%;
+    display: flex;  
+    flex-direction: column;
+  }
+
+  .news-date {
+      margin-bottom: 6px;
+  }
+
+  .news-label {
+    margin-bottom: 6px;
+  }
+
+  .news-text {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+
+
+  /* news end */
 }
 
 /* スマホ */
