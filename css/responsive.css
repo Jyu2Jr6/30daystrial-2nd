@@ -101,10 +101,28 @@
     width: 100%;
     margin-bottom: 0px;
   }
-
-
-
   /* news end */
+
+  /* price start */
+  #price .section-contents {
+    padding-bottom: 20px;
+  }
+
+  .content-img {
+    flex: 100%;
+    margin-bottom: 10px;
+  }
+
+  .content-info {
+      color: #333333;
+      font-size: 1.6rem;
+      flex: 100%;
+  }
+
+  .content-info table {
+    margin: 0 auto;
+  }
+  /* price end */
 }
 
 /* スマホ */
@@ -186,4 +204,22 @@
     height: 40px;
   }
   /* card end */
+
+  /* price start */
+  .content-img img {
+    width: 70%;
+    height: auto;
+  }
+  
+  .th-head {
+    border: 1px solid #707070;
+    width: 60px;
+  }
+
+  .th-data {
+      border: 1px solid #707070;
+      width: 100px;
+  }
+
+
 }
