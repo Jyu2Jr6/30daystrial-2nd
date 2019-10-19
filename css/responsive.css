@@ -140,6 +140,100 @@
   .content-access table {
     margin: 0 auto;
   }
+
+  /* contact start */
+  #contact {
+    padding-bottom: 20px;
+}
+
+  .contact-form {
+    width: 60rem;
+    padding-bottom: 20px;
+  }
+
+  .contact-form form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .form-label {
+    flex-basis: 10.8rem;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  .required::after {
+    margin-left: 5px;
+    padding: 2px 5px;
+    line-height: 1.6;
+  }
+  
+  .form-text input {
+    width: 35.6rem;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .form-select select {
+    width: 35.6rem;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .form-textarea input {
+    width: 35.6rem;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .form-radio {
+    margin-top: 20px;
+  }
+
+  .form-check {
+    margin-top: 20px;
+  }
+
+  .form-select select {
+    background-size: 12px 12px;
+  }
+
+  .form-btn a {
+    background-size: 0.8px 0.8px;
+  }
+
+  .check-label:after, .check-label:before{
+    position: absolute; /* ボックスの位置を指定する */
+    content: ""; /* ボックスのコンテンツ */
+    display: block; /* ブロックレベル要素化する */
+    top: 50%; /* 上部から配置の基準位置を決める */
+  }
+
+  .check-label:after {
+      position: absolute; /* ボックスの位置を指定する */
+      content: ""; /* ボックスのコンテンツ */
+      display: block; /* ブロックレベル要素化する */
+      top: 50%; /* 上部から配置の基準位置を決める */
+      left: 5px; /* 左から配置の基準位置を決める */
+      margin-top: -10px; /* チェック枠の位置 */
+      width: 20px; /* ボックスの横幅を指定する */
+      height: 20px; /* ボックスの高さを指定する */
+      border: 1px solid #aaaaaa; /* ボックスの境界線を実線で指定する */
+  }
+
+  .check-label:before {
+      left: 12px; /* 左から配置の基準位置を決める */
+      margin-top: -9px; /* チェックマークの位置 */
+      width: 6px; /* ボックスの横幅を指定する */
+      height: 12px; /* ボックスの高さを指定する */
+      border-right: 3px solid #0171bd; /* 境界線（右）のスタイルを指定する */
+      border-bottom: 3px solid #0171bd; /* 境界線（下）のスタイルを指定する */
+      transform: rotate(45deg); /* 要素を回転させる */
+      opacity: 0; /* 要素を透過指定する */
+  }
+
+  /* contact start */
 }
 
 /* スマホ */
@@ -237,5 +331,69 @@
       border: 1px solid #707070;
       width: 100px;
   }
+  /* price end */
+
+  /* contact start */
+  .contact-form {
+    width: 40rem;
+  }
+
+  .contact-form form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .form-label {
+    flex-basis: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .required::after {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 5px;
+    line-height: 1.6;
+  }
+
+  .form-text input {
+    flex-basis: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  .form-select select {
+    flex-basis: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  .form-textarea input {
+    flex-basis: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 90px;
+  }
+
+  .form-radio {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .form-check {
+    margin-top: 10px;
+  }
+
+  .form-select select {
+    background-size: 8px 8px;
+  }
+
+  .form-btn a {
+    background-size: 8px 8px;
+  }
+  /* contact start */
+
   /* price end */
 }

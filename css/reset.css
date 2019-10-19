@@ -100,3 +100,21 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+input[type="radio"] {
+    vertical-align: -0.1rem;
+}
+
+input[type=checkbox] {
+    display: none; /* checkboxを非表示にする */
+}
+
+/* selectbox */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    background: transparent;
+    border-radius: 0;
+}

@@ -14,6 +14,14 @@ body a {
     text-decoration: none;
 }
 
+body input {
+    font-size: 1.6rem;
+}
+
+body select {
+    font-size: 1.6rem;
+}
+
 .inner {
     width: 1180px;
     max-width: 100%;
@@ -27,6 +35,7 @@ body a {
     height: 10rem;
     position: fixed;
     overflow: hidden;
+    z-index: 100;
 }
 
 .header-logo {
@@ -380,3 +389,175 @@ s
     border-radius: 1.2rem;
 }
 /* access end */
+
+/* contact start */
+#contact {
+    background: #EFEFEF;
+    padding-bottom: 11.6rem;
+}
+
+.contact-form {
+    text-align: center;
+    width: 80rem;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form form {
+    padding-top: 5.7rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333;
+    flex-basis: 14.4rem;
+    text-align: left;
+    align-self: start;
+    padding-top: 1.8rem;
+    margin-left: 5.2rem;
+    margin-right: 3.3rem;
+    margin-bottom: 5rem;
+}
+
+.required {
+    position: relative;    
+}
+
+.required::after {
+    display: block;
+    content: "必須";
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    background: red;
+    top: 1rem;
+    width: 2.8rem;
+    height: 1.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.form-text input {
+    width: 52.8rem;
+    height: 6rem;
+    margin-bottom: 5rem;
+    border: 1px solid #707070;
+}
+
+.form-select select {
+    width: 54rem;
+    height: 6rem;
+    margin-bottom: 5rem;
+    border: 1px solid #707070;
+    background-image: url(../img/contact/select-arrow.svg);
+	background-repeat: no-repeat;
+	background-size: 1.6rem 1.6rem;
+	background-position: right 10px center;
+}
+
+.form-textarea input {
+    width: 52.8rem;
+    height: 24rem;
+    border: 1px solid #707070;
+}
+
+.form-radio {
+    margin-top: 4rem;
+    margin-left: 5.2rem;
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.form-radio input {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.form-radio label {
+    color: #333333;
+    margin-right: 3rem;
+}
+
+.form-check {
+    flex-basis: 100%;
+    margin-top: 4.4rem;
+
+}
+
+.form-check a {
+    text-decoration: underline;
+    color: #333333;
+}
+
+.form-check span {
+    color: #333333;
+}
+
+.form-btn {
+    flex-basis: 100%;
+    margin-top: 3rem
+}
+
+.form-btn a {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1.4rem 8.7rem;
+    background: #3F51B5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    background-image: url(../img/contact/contact-arrow.svg);
+	background-repeat: no-repeat;
+	background-size: 1.6rem 1.6rem;
+	background-position: right 10px center;
+}
+
+.check-label {
+    position: relative; /* ボックスの位置を指定する */
+    padding: 0 0 0 42px; /* ボックス内側の余白を指定する */
+}
+
+.check-label:hover:after {
+    border-color: #0171bd; /* ボックスの境界線を実線で指定する */
+}
+
+.check-label:after, .check-label:before{
+    position: absolute; /* ボックスの位置を指定する */
+    content: ""; /* ボックスのコンテンツ */
+    display: block; /* ブロックレベル要素化する */
+    top: 50%; /* 上部から配置の基準位置を決める */
+}
+
+.check-label:after {
+    position: absolute; /* ボックスの位置を指定する */
+    content: ""; /* ボックスのコンテンツ */
+    display: block; /* ブロックレベル要素化する */
+    top: 50%; /* 上部から配置の基準位置を決める */
+    left: 5px; /* 左から配置の基準位置を決める */
+    margin-top: -15px; /* チェック枠の位置 */
+    width: 30px; /* ボックスの横幅を指定する */
+    height: 30px; /* ボックスの高さを指定する */
+    border: 1px solid #aaaaaa; /* ボックスの境界線を実線で指定する */
+}
+
+.check-label:before {
+    left: 15px; /* 左から配置の基準位置を決める */
+    margin-top: -13px; /* チェックマークの位置 */
+    width: 10px; /* ボックスの横幅を指定する */
+    height: 18px; /* ボックスの高さを指定する */
+    border-right: 3px solid #0171bd; /* 境界線（右）のスタイルを指定する */
+    border-bottom: 3px solid #0171bd; /* 境界線（下）のスタイルを指定する */
+    transform: rotate(45deg); /* 要素を回転させる */
+    opacity: 0; /* 要素を透過指定する */
+}
+
+input[type=checkbox]:checked + .check-label:before {
+    opacity: 1; /* 要素を表示する */
+}
+/* contact end */
