@@ -7,7 +7,7 @@ body {
     /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
     font-size: 1.6em;
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-	line-height: 1.6;    
+    line-height: 1.6;    
 }
 
 body a {
@@ -23,9 +23,9 @@ body select {
 }
 
 .inner {
-    width: 1180px;
-    max-width: 100%;
-    margin: 0 auto;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1180px;
 }
 
 /* header start */
@@ -34,7 +34,7 @@ body select {
     width: 100%;
     height: 10rem;
     position: fixed;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 100;
 }
 
@@ -72,9 +72,13 @@ body select {
 }
 
 #main .inner {
+/* 
+
     top: 0;
     text-align: center;
     color: #333;
+ */
+
 }
 
 .main-title {
@@ -332,7 +336,6 @@ s
 }
 /* price end */
 
-/* access start */
 #access .section-contents {
     padding-bottom: 10.2rem;
     width: 90%;
@@ -561,3 +564,66 @@ input[type=checkbox]:checked + .check-label:before {
     opacity: 1; /* 要素を表示する */
 }
 /* contact end */
+
+/* footer start */
+#footer {
+    background: linear-gradient(#666666, #333333)
+}
+
+#footer .inner {
+    padding: 7.4rem 16.5rem 3.1rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    flex-basis: 30%;
+}
+
+.footer-center {
+    flex-basis: 50%;
+}
+
+.footer-right {
+    flex-basis: 20%;
+    margin-top: -0.5rem;
+}
+
+.footer-copy {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+.footer-logo {
+    margin-bottom: 3rem;
+}
+
+
+.footer-access {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.footer-access p {
+    margin-bottom: 1.3rem;
+}
+
+.footer-center a {
+    margin-left: 3rem;
+    color: #fff;
+}
+
+.footer-right a {
+    margin-left: 1.6rem;
+}
+
+.page-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+/* footer end */

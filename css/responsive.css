@@ -3,7 +3,7 @@
   html {
     font-size: 45%;
   }
-
+  
   /* header start */
   #header {
     height: 80px;
@@ -13,11 +13,11 @@
     margin-top: 20px;
   }
 
-  .header-menu {
+  .nav-menu {
     margin-top: 30px;
   }
 
-  .header-menu a {
+  .nav-menu a {
     font-size: 14px;
   }
   /* header end */
@@ -234,6 +234,43 @@
   }
 
   /* contact start */
+
+  /* footer start */
+  #footer .inner {
+    padding: 40px 80px 15px 40px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+
+  .footer-logo img {
+    width: 150px;
+    height: auto;
+  }
+
+  .footer-access p {
+    margin-bottom: 6px;
+  }
+
+  .footer-center a {
+    margin-left: 18px;
+  }
+
+  .footer-right a {
+    margin-left: 8px;
+  }
+
+  .footer-right img {
+    width: 20px;
+    height: auto;
+  }
+
+  .page-top img {
+    width: 40px;
+    height: auto;
+  }
+  /* footer end */
 }
 
 /* スマホ */
@@ -253,12 +290,12 @@
     margin-top: 10px;
   }
 
-  .header-menu {
+  .nav-menu {
     display: none;
     margin-top: 20px;
   }
 
-  .header-menu a {
+  .nav-menu a {
     font-size: 12px;
   }
   /* header start */
@@ -379,7 +416,7 @@
 
   .form-radio {
     margin-top: 10px;
-    text-align: center;
+    text-align: center  ;
   }
 
   .form-check {
@@ -393,7 +430,35 @@
   .form-btn a {
     background-size: 8px 8px;
   }
-  /* contact start */
-
   /* price end */
+
+  /* footer start */
+  #footer .inner {
+    padding: 20px 0 15px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-left {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-center {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+
+  .footer-right {
+      flex-basis: 100%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  
+  .page-top img {
+    width: 25px;
+    height: auto;
+  }
+  /* footer end */
+
 }
