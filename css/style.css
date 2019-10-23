@@ -6,12 +6,14 @@ html {
 body {
     /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
     font-size: 1.6em;
-	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    line-height: 1.6;    
+    /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;;
+    line-height: 1.6;
 }
 
 body a {
     text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;;
 }
 
 body input {
@@ -20,6 +22,10 @@ body input {
 
 body select {
     font-size: 1.6rem;
+}
+
+.number {
+    font-family: 'Lato', sans-serif;
 }
 
 .inner {
@@ -72,13 +78,9 @@ body select {
 }
 
 #main .inner {
-/* 
-
     top: 0;
     text-align: center;
     color: #333;
- */
-
 }
 
 .main-title {
@@ -574,6 +576,7 @@ input[type=checkbox]:checked + .check-label:before {
     padding: 7.4rem 16.5rem 3.1rem 8rem;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;    
 }
 
 .footer-left {
