@@ -81,6 +81,7 @@ body select {
     top: 0;
     text-align: center;
     color: #333;
+    padding-bottom: 13.8rem;
 }
 
 .main-title {
@@ -95,16 +96,12 @@ body select {
     margin-bottom: 8.2rem; 
 }
 
-.btn {
-    margin-bottom: 13.8rem;
+#main .inner a {
     padding: 1.7rem 8.1rem;
-    background: #3F51B5 no-repeat padding-box;;
+    background: #3F51B5 no-repeat padding-box;
     border-radius: 1.2rem;
     font-size: 3.8rem;
     font-weight: bold;
-}
-
-.btn a {
     color: #fff;
 }
 /* main visual end */
